@@ -1,7 +1,8 @@
-import random
+import random 
 qntd_alunos=int(input('Quantidade de alunos: '))
-nomes =[]
+nomes=[]
 for alunos in range(0, qntd_alunos):
-    nome=input('Qual o nome do aluno? ')
+    nome=str(input('Digite o nome do aluno: '))
     nomes.append(nome)
-print(random.shuffle(nomes))
+random.shuffle(nomes))
+print('A ordem dos trabalhos será: {}'.format(nomes))
